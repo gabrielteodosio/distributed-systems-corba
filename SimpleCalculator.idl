@@ -1,0 +1,6 @@
+module SimpleCalculatorApp {
+  interface SimpleCalculator {
+	  double sumNumbers(in double number1, in double number2);
+	  oneway void shutdown();
+  };
+};
